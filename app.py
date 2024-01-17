@@ -18,4 +18,6 @@ sales_store_df = sales_prod_store_df[["ID Loja","Valor Final"]].groupby("ID Loja
 # Adding Managers to Sales Store
 sales_store_df = sales_store_df.merge(managers_df)
 
+print(sales_df)
+print(sales_prod_store_df)
 print(sales_store_df)
