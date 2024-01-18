@@ -4,6 +4,8 @@ import pandas as pd
 #vendas_df = pd.read_excel("datasets/Vendas_together.xlsx", sheet_name=None)
 sales_jan_df = pd.read_excel("datasets/Vendas_together.xlsx", sheet_name="Jan")
 sales_dez_df = pd.read_excel("datasets/Vendas_together.xlsx", sheet_name="Dez")
+# Importing Managers
+managers_df = pd.read_excel("datasets/Gerentes.xlsx")
 
 # Contating January Sales with Dezember Sales Dezember Sales
 sales_df = pd.concat([sales_jan_df, sales_dez_df])
